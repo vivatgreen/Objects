@@ -1,18 +1,29 @@
 package ru.skypro.course1.homework1;
 
-public class Author {
+class Author {
     String authorName;
     String authorSurname;
 
-    public Author(String authorName, String authorSurname) {
+    Author( String authorName, String authorSurname){
         this.authorName = authorName;
         this.authorSurname = authorSurname;
     }
-    public String getauthorName() {
-        return this.authorName;
+
+    public void setAuthorName(String authorName){
+        this.authorName = authorName;
     }
-    public String getSurname(){
-        return this.authorSurname;
+    public String getAuthorName() {
+        return authorName;
     }
-}
+
+        public void setAuthorSurname (String authorSurname) {
+            this.authorSurname = authorSurname;
+        }
+        public String getSurname () {
+            return authorSurname;
+        }
+
+    }
+
+
 
