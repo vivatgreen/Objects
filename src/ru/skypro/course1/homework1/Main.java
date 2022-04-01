@@ -10,5 +10,6 @@ public class Main {
         System.out.println("firstBook = " + firstBook);
         System.out.println("secondBook = " + secondBook);
         secondBook.setYear(1846);
+        System.out.println("secondBook.getYear() = " + secondBook.getYear());
     }
 }
