@@ -9,6 +9,6 @@ public class Main {
         Book secondBook = new Book("Война и мир", levTolstoi, 1869);
         System.out.println("firstBook = " + firstBook);
         System.out.println("secondBook = " + secondBook);
-        secondBook.year = 1866;
+        secondBook.setYear(1846);
     }
 }
